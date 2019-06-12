@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# sudo mv git-licenses/* /usr/local/bin/
+# sudo mv git-generate-license /usr/local/bin/
+
+git clone https://github.com/foss-dev/git-license-generator
+
+cd git-license-generator
+
+sudo mv git-licenses/* /usr/local/bin/
+sudo mv git-generate-license /usr/local/bin/
