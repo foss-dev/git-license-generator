@@ -30,3 +30,11 @@ Or, if you are a Mac user:
 ```bash
 $ bash -c  "$(curl -sLo- https://git.io/fj2J9)"
 ```
+
+## Usage
+
+Select license
+
+```bash
+git generate-license -s
+```
