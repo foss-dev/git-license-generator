@@ -18,6 +18,7 @@ licenselist() {
     echo "10-) GNU Lesser General Public License v3.0"
     echo "11-) Mozilla Public License 2.0"
     echo "12-) The Unlicense"
+    echo "13-) Do What The Fuck You Want To Public License"
 }
 
 usage() {
@@ -96,6 +97,10 @@ selectlicense() {
         "12")
             cat "/usr/local/bin/unlicense.md" >> "$(pwd)/LICENSE.md"
             echo "The Unlicense Generated"; exit 0
+            ;;
+        "13")
+            cat "/usr/local/bin/wtfpl.md" >> "$(pwd)/LICENSE.md"
+            echo "Do What The Fuck You Want To Public License Generated"; exit 0
             ;;
     esac
     
