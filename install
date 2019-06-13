@@ -10,4 +10,4 @@ cd git-license-generator
 sudo mv git-licenses/* /usr/local/bin/
 sudo mv git-generate-license /usr/local/bin/
 
-rm -rf git-license-generator
+cd - && rm -rf git-license-generator
