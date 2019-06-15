@@ -22,13 +22,13 @@ sudo mv git-generate-license /usr/local/bin/
 Just copy and paste this one-line command:
 
 ```bash
-$ bash -c  "$(wget -qO- https://git.io/fj2J9)" 
+$ bash -c  "$(wget -qO- https://raw.githubusercontent.com/foss-dev/git-license-generator/master/install)" 
 ```
 
 Or, if you are a Mac user:
 
 ```bash
-$ bash -c  "$(curl -sLo- https://git.io/fj2J9)"
+$ bash -c  "$(curl -sLo- https://raw.githubusercontent.com/foss-dev/git-license-generator/master/install)"
 ```
 
 ## Usage
